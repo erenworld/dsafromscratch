@@ -1,0 +1,26 @@
+Merge sort is a sorting algorithm.
+- its a divide and conquer algorithm
+- its works recursively by breaking down a problem into sub-problems
+- then solves sub-problems and combine them
+- it returns a sorted array
+
+Divide: Divide the list or array recursively into two halves until it can no more be divided.
+Conquer: Each subarray is sorted individually using the merge sort algorithm.
+Merge: The sorted subarrays are merged back together in sorted order. 
+       The process continues until all elements from both subarrays have been merged.
+
+
+Real world examples: 
+- sorting large datasets
+
+
+
+Let's sort this array together !
+
+[38, 27, 43, 10]
+38 27      43 10
+38   27    43    10
+// merge
+27 38      10 43
+// merge
+10 27 38 43
